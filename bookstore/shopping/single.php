@@ -129,7 +129,11 @@
                     alert("Product added to cart successfully");
                     $("#submit").html("<i class='fas fa-shopping-cart'></i> Added to cart").prop("disabled", true);
                 }
-            })
+            });
+            function ref(){
+                
+                $("body").load("single.php?id=<?php echo $id; ?>");
+            }
         })
     });
 </script>
