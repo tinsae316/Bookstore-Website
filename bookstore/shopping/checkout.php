@@ -1,6 +1,15 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../config/config.php"; ?>
 
+<?php 
+
+  if (!isset($_SESSION['username'])){
+    header("location: ".APPURL."");
+  }
+
+?>
+
+
       <!-- Heading -->
       
 
@@ -60,7 +69,7 @@
 
               <!--email-->
               <div class="md-form mb-5">
-                <label for="email" class="">Email (optional)</label>
+                <label for="email" class="">Email</label>
 
                 <input type="text" name="email" id="email" class="form-control" placeholder="youremail@example.com">
               </div>
@@ -82,3 +91,4 @@
         </div>
 </div>
         <?php require "../includes/footer.php"; ?>
+        

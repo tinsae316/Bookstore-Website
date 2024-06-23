@@ -2,6 +2,11 @@
 <?php require "../config/config.php"; ?>
 <?php 
 
+
+  if (!isset($_SESSION['username'])){
+    header("location: ".APPURL."");
+  }
+
   $product = $conn->query("SELECT * FROM cart WHERE user_id = '$_SESSION[user_id]'");
   $product->execute();
 
@@ -89,7 +94,7 @@
                       <input class="inp_price" name="price" type="hidden">
                     </div>
 
-                    <button type="submit" name="submit" class="btn btn-dark btn-block btn-lg"
+                    <button type="submit" name="submit" class="checkout btn btn-dark btn-block btn-lg"
                       data-mdb-ripple-color="dark">Checkout</button>
                   </form>
 
@@ -201,6 +206,11 @@
                   });
                   $(".full_price").html(sum+"$");
                   $(".inp_price").val(sum);
+                  if($(".inp_price").val() > 0) {
+                    $(".checkout").show();
+                  }else{
+                    $(".checkout").hide();
+                  }
         }, 4000);
       } 
       
