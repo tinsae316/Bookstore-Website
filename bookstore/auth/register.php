@@ -7,6 +7,8 @@
     if (isset($_POST['submit'])) {
         if (empty($_POST['username']) || empty($_POST['email']) || empty($_POST['password'])) {
             echo "<script>alert('one or more inputs are empty');</script>";
+        } elseif (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            echo "<script>alert('Invalid email format');</script>";
         } else {
             $username = $_POST['username'];
             $email = $_POST['email'];
