@@ -1,7 +1,7 @@
 <?php 
 
     session_start();
-    define("APPURL", "http://localhost/bookstore");
+    define("APPURL", "http://localhost/Bookstore-Website/bookstore");
 
 
     require dirname(dirname(__FILE__)) . "/config/config.php";
