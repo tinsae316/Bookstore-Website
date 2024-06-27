@@ -7,56 +7,62 @@
            <div class="row">
            <!--Grid column-->
            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-               <h5 class="text-uppercase">Footer Content</h5>
+               <h5 class="text-uppercase">About Us</h5>
 
                <p>
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-               molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-               voluptatem veniam, est atque cumque eum delectus sint!
+               We are 3rd-year software engineering students who developed this website for our web-based system project. Our aim is to create a user-friendly platform for browsing and purchasing books online.
                </p>
            </div>
            <!--Grid column-->
 
            <!--Grid column-->
            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-               <h5 class="text-uppercase">Links</h5>
+    <h5 class="text-uppercase">Developers</h5>
 
-               <ul class="list-unstyled mb-0">
-               <li>
-                   <a href="#!" class="text-white">Link 1</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 2</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 3</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 4</a>
-               </li>
-               </ul>
-           </div>
-           <!--Grid column-->
+    <ul class="list-unstyled mb-0">
+        <li class="mb-3">
+            <p class="text-white">Tinsae Teferi</p>
+        </li>
+        <li class="mb-3">
+            <p class="text-white">Bealprasim Demere</p>
+        </li>
+        <li class="mb-3">
+            <p class="text-white">Meron Bahiru</p>
+        </li>
+        <li class="mb-3">
+            <p class="text-white">Abel Alemayehu</p>
+        </li>
+        <li class="mb-3">
+            <p class="text-white">Bedasa Megersa</p>
+        </li>
+    </ul>
+</div>
+<!--Grid column-->
 
-           <!--Grid column-->
-           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-               <h5 class="text-uppercase mb-0">Links</h5>
+<!--Grid column-->
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+    <h5 class="text-uppercase mb-2">Links</h5>
 
-               <ul class="list-unstyled">
-               <li>
-                   <a href="#!" class="text-white">Link 1</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 2</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 3</a>
-               </li>
-               <li>
-                   <a href="#!" class="text-white">Link 4</a>
-               </li>
-               </ul>
-           </div>
+    <ul class="list-unstyled ps-md-4">
+        <li class="mb-3"> <!-- Increase margin-bottom for additional spacing -->
+            <a href="https://github.com/tinsae316" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li class="mb-3"> <!-- Increase margin-bottom for additional spacing -->
+            <a href="https://github.com/prasimbaal" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li class="mb-3"> <!-- Increase margin-bottom for additional spacing -->
+            <a href="https://github.com/Merrycodesx" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li class="mb-3"> <!-- Increase margin-bottom for additional spacing -->
+            <a href="#" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li class="mb-3"> <!-- Increase margin-bottom for additional spacing -->
+            <a href="https://github.com/bedasamegersa" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+    </ul>
+</div>
+
+
            <!--Grid column-->
            </div>
            <!--Grid row-->
