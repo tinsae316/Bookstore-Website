@@ -71,8 +71,8 @@
 
        <!-- Copyright -->
        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-           © 2020 Copyright:
-           <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+           © 2024 Copyright:
+           <a class="text-white" target="_blank" href="https://github.com/tinsae316/Bookstore-Website">Bookstore.com</a>
        </div>
        <!-- Copyright -->
        </footer>
