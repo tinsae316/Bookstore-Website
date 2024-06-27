@@ -13,20 +13,8 @@
 
         $getNumber = $number->fetch(PDO::FETCH_OBJ);
     }
-   
-        
-        
-
-
-    
-
-
-
 
 ?>
-
-
-
 
 <!doctype html>
 <html lang="en">

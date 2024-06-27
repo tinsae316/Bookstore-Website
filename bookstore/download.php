@@ -24,4 +24,5 @@
     $select = $conn->query("DELETE FROM cart WHERE user_id='$_SESSION[user_id]'");
     $select->execute();
 
-    header("location: index.php");
+    // header("location: index.php");
+    
